@@ -15,4 +15,11 @@ Software and Acoount Requirement
 
  pip install -r requirements.txt
  -------
+ docker --version
+ docker build -t <imagename>:<tagename> .
+ docker images
+ docker run -p 5000:5000 -e PORT=5000 <ID>
+ docker ps
+ docker stop containerID
+
  
