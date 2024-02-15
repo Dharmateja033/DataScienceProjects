@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route("/",methods=['GET','POST'])
 def index():
-    return "Application Just Started"
+    return "Pipeline established NOW!!"
 
 
 if __name__=='__main__':
