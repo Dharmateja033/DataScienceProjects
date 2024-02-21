@@ -1,30 +1,39 @@
-from setuptools import setup, find_packages
+from setuptools import setup,find_packages
 from typing import List
+
+#Declaring variables for setup functions
+PROJECT_NAME="CALIFORNIA HOUSE PRICE PREDICTION"
+VERSION="0.0.3"
+AUTHOR="DHARMA TEJA EDIGA"
+DESRCIPTION="Predicting The Best Price For Old House in California "
+
+REQUIREMENT_FILE_NAME="requirements.txt"
+
+HYPHEN_E_DOT = "-e ."
 
 
 def get_requirements_list() -> List[str]:
-    # Returns List of elements in requirements.txt
-    with open('requirements.txt') as requirements_file:
-        # Exclude any lines containing '-e .'
-        return [line.strip() for line in requirements_file if '-e .' not in line]
+    """
+    Description: This function is going to return list of requirement
+    mention in requirements.txt file
+    return This function is going to return a list which contain name
+    of libraries mentioned in requirements.txt file
+    """
+    with open(REQUIREMENT_FILE_NAME) as requirement_file:
+        requirement_list = requirement_file.readlines()
+        requirement_list = [requirement_name.replace("\n", "") for requirement_name in requirement_list]
+        if HYPHEN_E_DOT in requirement_list:
+            requirement_list.remove(HYPHEN_E_DOT)
+        return requirement_list
 
 
-# Declaring variables for setup Function
-Project_Name = 'Housing_Price_Predictor'
-Version = '0.0.3'
-Author = 'DharmaTeja'
-Description = 'One Of The ML Project-Practice'
 
 setup(
-    name=Project_Name,
-    version=Version,
-    author=Author,
-    description=Description,
-    packages=find_packages(),
-    install_requires=get_requirements_list(),
+name=PROJECT_NAME,
+version=VERSION,
+author=AUTHOR,
+description=DESRCIPTION,
+packages=find_packages(), 
+install_requires=get_requirements_list()
 )
 
-if __name__ == "__main__":
-    print(get_requirements_list())
-
-    

@@ -18,7 +18,7 @@ Software and Acoount Requirement
  docker --version
  docker build -t <imagename>:<tagename> .
  docker images
- docker run -p 5000:5000 -e PORT=5000 <ID>
+ docker run -p 8080:8080 -e PORT=8080 <ID>
  docker ps
  docker stop containerID
 
