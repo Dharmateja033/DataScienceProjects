@@ -1,5 +1,5 @@
 
-****************************************** CALIFORNIA HOUSE PRICE PREDICTION *********************************.
+## ********* CALIFORNIA HOUSE PRICE PREDICTION ************* ##.
 
 Application data source url:
 (https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz)
@@ -62,9 +62,9 @@ Application data source url:
 
 ## Artifacts From The Project:
 1. Data Ingestion Artifact :
-        a. tgz_data.csv
-        b. raw_data.csv
-        c. ingested data
+        a. tgz_data.csv \n
+        b. raw_data.csv \n
+        c. ingested data  \n
             * training_dataset.csv
             * testing_datset.csv
 
