@@ -1,6 +1,10 @@
+
+****************************************** CALIFORNIA HOUSE PRICE PREDICTION *********************************.
+
 Application data source url:
 (https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz)
 
+<<<<<<< HEAD
 ## Start Machine Learning project.
 
 ## PROJECT OUTLOOK :
@@ -8,6 +12,8 @@ Application data source url:
 
 ![alt text](<project_Outlook/Screenshot 2024-02-22 001307.jpg>)
 
+=======
+>>>>>>> 12ec580e42d882c8236b8a28a3e4a95d7ee05a79
 ## Dataset Details
 ## Feature Description :
 
