@@ -1,7 +1,12 @@
 Application data source url:
-[HousingPredictor](https://ml-regression-app.herokuapp.com/)
+(https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz)
 
 ## Start Machine Learning project.
+
+## PROJECT OUTLOOK :
+
+
+![alt text](<project_Outlook/Screenshot 2024-02-22 001307.jpg>)
 
 ## Dataset Details
 ## Feature Description :
@@ -47,7 +52,34 @@ Application data source url:
     { MedianHouseValue(float64)  :	Median house value for households within a block (measured in USDollars)                        
                             Data set min:  14999.0
                             Data set max:  500001.0}
-                
+
+
+## Artifacts From The Project:
+1. Data Ingestion Artifact :
+        a. tgz_data.csv
+        b. raw_data.csv
+        c. ingested data
+            * training_dataset.csv
+            * testing_datset.csv
+
+2. Data Transformation Artifact:
+        a. preprocessed_model.pkl
+        b. Transformed_data
+            * test.npz
+            * train.npz
+
+3. Data Vaildation :
+        a. report.json
+        b. report.html
+
+4. Model_Training :
+        a. trained_model.pkl
+
+
+5. Model Evaluation :
+        a.model_evaluation.yaml
+
+
 
 
 
