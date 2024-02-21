@@ -1,5 +1,5 @@
 
-## CALIFORNIA HOUSE PRICE PREDICTION ##.
+## CALIFORNIA HOUSE PRICE PREDICTION 
 
 Application data source url:
 (https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz)
