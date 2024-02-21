@@ -1,7 +1,8 @@
+
+****************************************** CALIFORNIA HOUSE PRICE PREDICTION *********************************.
+
 Application data source url:
 [HousingPredictor](https://ml-regression-app.herokuapp.com/)
-
-## Start Machine Learning project.
 
 ## Dataset Details
 ## Feature Description :
