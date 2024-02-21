@@ -1,5 +1,5 @@
 
-## ********* CALIFORNIA HOUSE PRICE PREDICTION ************* ##.
+## CALIFORNIA HOUSE PRICE PREDICTION ##.
 
 Application data source url:
 (https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz)
@@ -17,7 +17,7 @@ Application data source url:
 ## Dataset Details
 ## Feature Description :
 
-1. Longitude(float64)  :	A measure of how far west a house is; a more negative value is farther west	
+# Longitude(float64)  :	A measure of how far west a house is; a more negative value is farther west	
                             Longitude values range from -180 to +180
                             Data set min: -124.3
                             Data set max: -114.3
@@ -28,7 +28,7 @@ Application data source url:
                             Data set max:  42.5
 
 
-3. HousingMedianAge(float64)  :	Median age of a house within a block; a lower number is a newer building	
+* HousingMedianAge(float64)  :	Median age of a house within a block; a lower number is a newer building	
                             Data set min:  1.0
                             Data set max:  52.0
 
