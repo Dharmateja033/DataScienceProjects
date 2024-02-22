@@ -3,7 +3,9 @@ Flask
 gunicorn
 scikit-learn 
 pandas
+dill
 #sklearn
 evidently
+matplotlib
 #-e .
 PyYAML
